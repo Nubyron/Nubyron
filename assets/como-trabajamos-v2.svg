@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 220" role="img" aria-label="Cómo trabajamos: 1 solo lectura, 2 diagnóstico, tu autorización por escrito, 4 cambio pequeño con plan de retroceso, 5 documentado, 6 traspaso a tu equipo.">
+  <style>
+    text { font-family: 'Poppins','Segoe UI',Helvetica,Arial,sans-serif; }
+    .n { font-weight: 800; }
+    .l { fill: #F2F5F7; font-size: 14.5px; font-weight: 700; }
+    .s { fill: #9AA3AE; font-size: 11.5px; }
+    .cap { fill: #9AA3AE; font-family: 'JetBrains Mono','Cascadia Mono',Consolas,'Courier New',monospace; font-size: 12px; letter-spacing: 1px; }
+  </style>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22E9F2"/><stop offset="1" stop-color="#4E29D6"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22E9F2"/><stop offset="1" stop-color="#4E29D6"/></linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow2" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<path id="ruta" d="M90 108 H910"/></defs>
+  <rect x="1" y="1" width="938" height="218" rx="20" fill="#10121A" stroke="#262B3A" stroke-width="2"/>
+  <text class="cap" x="470" y="36" text-anchor="middle">// nada se salta un paso</text>
+  <path d="M90 108 H910" stroke="#262B3A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M90 108 H910" stroke="url(#g)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 12"><animate attributeName="stroke-dashoffset" values="0;-44" dur="1.6s" repeatCount="indefinite"/></path>
+  <g>
+  <circle cx="90" cy="108" r="40" fill="#22E9F2" opacity="0.10"><animate attributeName="r" values="34;46;34" dur="3s" begin="0.0s" repeatCount="indefinite"/></circle>
+  <circle cx="90" cy="108" r="30" fill="#10121A" stroke="#22E9F2" stroke-width="3" filter="url(#glow)"/>
+  <text class="n" x="90" y="114" text-anchor="middle" fill="#22E9F2" font-size="19">1</text>
+  <text class="l" x="90" y="166" text-anchor="middle">Solo lectura</text><text class="s" x="90" y="186" text-anchor="middle">empezamos sin tocar</text></g><g>
+  <circle cx="254" cy="108" r="40" fill="#22E9F2" opacity="0.10"><animate attributeName="r" values="34;46;34" dur="3s" begin="0.45s" repeatCount="indefinite"/></circle>
+  <circle cx="254" cy="108" r="30" fill="#10121A" stroke="#22E9F2" stroke-width="3" filter="url(#glow)"/>
+  <text class="n" x="254" y="114" text-anchor="middle" fill="#22E9F2" font-size="19">2</text>
+  <text class="l" x="254" y="166" text-anchor="middle">Diagnóstico</text><text class="s" x="254" y="186" text-anchor="middle">qué hay y qué riesgo tiene</text></g><g>
+  <circle cx="418" cy="108" r="40" fill="#FFB020" opacity="0.10"><animate attributeName="r" values="34;46;34" dur="3s" begin="0.9s" repeatCount="indefinite"/></circle>
+  <circle cx="418" cy="108" r="30" fill="#10121A" stroke="#FFB020" stroke-width="3" filter="url(#glow)"/>
+  <text class="n" x="418" y="113" text-anchor="middle" fill="#FFB020" font-size="15">OK</text>
+  <text class="l" x="418" y="166" text-anchor="middle">Tu autorización</text><text class="s" x="418" y="186" text-anchor="middle">por escrito, siempre</text></g><g>
+  <circle cx="582" cy="108" r="40" fill="#22E9F2" opacity="0.10"><animate attributeName="r" values="34;46;34" dur="3s" begin="1.35s" repeatCount="indefinite"/></circle>
+  <circle cx="582" cy="108" r="30" fill="#10121A" stroke="#22E9F2" stroke-width="3" filter="url(#glow)"/>
+  <text class="n" x="582" y="114" text-anchor="middle" fill="#22E9F2" font-size="19">4</text>
+  <text class="l" x="582" y="166" text-anchor="middle">Cambio pequeño</text><text class="s" x="582" y="186" text-anchor="middle">con plan de retroceso</text></g><g>
+  <circle cx="746" cy="108" r="40" fill="#22E9F2" opacity="0.10"><animate attributeName="r" values="34;46;34" dur="3s" begin="1.8s" repeatCount="indefinite"/></circle>
+  <circle cx="746" cy="108" r="30" fill="#10121A" stroke="#22E9F2" stroke-width="3" filter="url(#glow)"/>
+  <text class="n" x="746" y="114" text-anchor="middle" fill="#22E9F2" font-size="19">5</text>
+  <text class="l" x="746" y="166" text-anchor="middle">Documentado</text><text class="s" x="746" y="186" text-anchor="middle">decisión a decisión</text></g><g>
+  <circle cx="910" cy="108" r="40" fill="#22E9F2" opacity="0.10"><animate attributeName="r" values="34;46;34" dur="3s" begin="2.25s" repeatCount="indefinite"/></circle>
+  <circle cx="910" cy="108" r="30" fill="#10121A" stroke="#22E9F2" stroke-width="3" filter="url(#glow)"/>
+  <text class="n" x="910" y="114" text-anchor="middle" fill="#22E9F2" font-size="19">6</text>
+  <text class="l" x="910" y="166" text-anchor="middle">Traspaso</text><text class="s" x="910" y="186" text-anchor="middle">para poder irnos</text></g>
+  <circle r="10" fill="url(#g2)" filter="url(#glow2)"><animateMotion dur="9s" repeatCount="indefinite"><mpath href="#ruta"/></animateMotion></circle>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" role="img" aria-label="Terminal: nubyron --whoami. Consultora Cloud y DevOps de Las Palmas de Gran Canaria para toda España. Producción que aguanta y conocimiento que se queda en tu equipo. No hacemos promesas sin medir, dependencias innecesarias ni cambios sin tu autorización.">
+  <style>
+    text { font-family: 'JetBrains Mono','Cascadia Mono',Consolas,'Courier New',monospace; font-size: 18px; }
+    .win { fill: #1A1A1A; stroke: #3A3A3A; }
+    .bar { fill: #262626; }
+    .p { fill: #22E9F2; }
+    .o { fill: #FFFFFF; }
+    .d { fill: #9AA0A0; }
+    
+    .cur { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <defs>
+    <clipPath id="c1"><rect x="40" y="70" width="0" height="34"><animate attributeName="width" from="0" to="820" begin="0.4s" dur="1.2s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="40" y="108" width="0" height="34"><animate attributeName="width" from="0" to="820" begin="1.9s" dur="2.4s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="40" y="150" width="0" height="34"><animate attributeName="width" from="0" to="820" begin="4.6s" dur="1.2s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="40" y="188" width="0" height="34"><animate attributeName="width" from="0" to="820" begin="6.1s" dur="2.4s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c5"><rect x="40" y="230" width="0" height="34"><animate attributeName="width" from="0" to="820" begin="8.8s" dur="1.4s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c6"><rect x="40" y="268" width="0" height="34"><animate attributeName="width" from="0" to="820" begin="10.5s" dur="2.4s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <rect class="win" x="1" y="1" width="898" height="328" rx="14" stroke-width="2"/>
+  <path class="bar" d="M2 15a13 13 0 0 1 13-13h870a13 13 0 0 1 13 13v33H2z"/>
+  <circle cx="28" cy="25" r="6" fill="#FF5F57"/><circle cx="50" cy="25" r="6" fill="#FEBC2E"/><circle cx="72" cy="25" r="6" fill="#28C840"/>
+  <text class="d" x="450" y="31" font-size="14" text-anchor="middle">nubyron — bash</text>
+
+  <g clip-path="url(#c1)"><text x="40" y="94"><tspan class="p">$</tspan> <tspan class="o">nubyron --whoami</tspan></text></g>
+  <g clip-path="url(#c2)"><text class="o" x="40" y="132">consultora Cloud y DevOps · Las Palmas de Gran Canaria · toda España</text></g>
+  <g clip-path="url(#c3)"><text x="40" y="174"><tspan class="p">$</tspan> <tspan class="o">nubyron --lo-que-haces</tspan></text></g>
+  <g clip-path="url(#c4)"><text class="o" x="40" y="212">producción que aguanta · conocimiento que se queda en tu equipo</text></g>
+  <g clip-path="url(#c5)"><text x="40" y="254"><tspan class="p">$</tspan> <tspan class="o">nubyron --lo-que-no-haces</tspan></text></g>
+  <g clip-path="url(#c6)"><text class="o" x="40" y="292">promesas sin medir · dependencias innecesarias · cambios sin tu OK</text></g>
+  <rect class="cur p" x="40" y="298" width="12" height="3"/>
+</svg>

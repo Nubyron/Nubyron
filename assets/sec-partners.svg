@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 70" role="img" aria-label="./partners">
+  <style>
+    text { font-family: 'JetBrains Mono','Cascadia Mono',Consolas,'Courier New',monospace; }
+    .h { fill: #14161C; font-size: 26px; font-weight: 700; }
+    .p { fill: #4E29D6; }
+    @media (prefers-color-scheme: dark) { .h { fill: #F2F5F7; } .p { fill: #22E9F2; } }
+    .s { fill: #9AA3AE; font-size: 13px; }
+  </style>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22E9F2"/><stop offset="1" stop-color="#4E29D6"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22E9F2"/><stop offset="1" stop-color="#4E29D6"/></linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow2" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+    <clipPath id="t"><rect x="60" y="14" width="0" height="46"><animate attributeName="width" from="0" to="194" dur="0.90s" begin="0.2s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <rect x="14" y="14" width="10" height="42" rx="5" fill="url(#g2)" filter="url(#glow)"><animate attributeName="opacity" values="1;0.55;1" dur="2.6s" repeatCount="indefinite"/></rect>
+  <rect x="32" y="22" width="6" height="26" rx="3" fill="url(#g2)" opacity="0.55"/>
+  <g clip-path="url(#t)"><text class="h" x="62" y="45"><tspan class="p">$</tspan> ./partners</text></g>
+  <rect x="250" y="26" width="14" height="22" fill="#22E9F2"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" calcMode="discrete"/></rect>
+  <line x1="296" y1="35" x2="926" y2="35" stroke="#262B3A" stroke-width="2" stroke-dasharray="3 7" stroke-linecap="round"/>
+  <circle r="4" cy="35" fill="#22E9F2" filter="url(#glow)"><animate attributeName="cx" values="296;926" dur="3.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="3.4s" repeatCount="indefinite"/></circle>
+</svg>

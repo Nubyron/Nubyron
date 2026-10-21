@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 150" role="img" aria-label="Reserva 30 minutos con Nubyron. Sin compromiso: una primera llamada para entender tu caso.">
+  <style>text { font-family: 'Poppins','Segoe UI',Helvetica,Arial,sans-serif; } .pan { fill: #10121A; } .a { fill: #F2F5F7; font-size: 30px; font-weight: 800; } .b { fill: #9AA3AE; font-size: 15px; }</style>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22E9F2"/><stop offset="1" stop-color="#4E29D6"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22E9F2"/><stop offset="1" stop-color="#4E29D6"/></linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow2" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+    <linearGradient id="bd" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="940" y2="0" spreadMethod="reflect"><stop offset="0" stop-color="#22E9F2"/><stop offset="0.5" stop-color="#4E29D6"/><stop offset="1" stop-color="#22E9F2"/><animateTransform attributeName="gradientTransform" type="translate" from="-940 0" to="940 0" dur="6s" repeatCount="indefinite"/></linearGradient>
+    <radialGradient id="rg" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#4E29D6" stop-opacity="0.55"/><stop offset="1" stop-color="#4E29D6" stop-opacity="0"/></radialGradient>
+    <clipPath id="c"><rect x="1" y="1" width="938" height="148" rx="24"/></clipPath>
+  </defs>
+  <rect class="pan" x="1" y="1" width="938" height="148" rx="24"/>
+  <g clip-path="url(#c)"><circle cx="760" cy="75" r="190" fill="url(#rg)"><animate attributeName="r" values="170;210;170" dur="5s" repeatCount="indefinite"/></circle></g>
+  <rect x="1" y="1" width="938" height="148" rx="24" fill="none" stroke="url(#bd)" stroke-width="3"/>
+  <text class="a" x="44" y="62">¿Hablamos? Sin compromiso.</text>
+  <text class="b" x="44" y="94">Una primera llamada de 30 minutos para entender tu caso.</text>
+  <g transform="translate(640 46)" filter="url(#glow2)"><rect width="260" height="58" rx="29" fill="url(#g)"><animate attributeName="opacity" values="1;0.82;1" dur="2.4s" repeatCount="indefinite"/></rect>
+  <text x="130" y="37" text-anchor="middle" font-size="18" font-weight="800" fill="#07080C">Reserva 30 minutos →</text></g>
+</svg>

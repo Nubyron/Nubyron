@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 900 300" role="img" aria-label="Ejemplo ilustrativo: kubectl get pods en el namespace produccion, todos en estado Running">
+  <style>
+    text { font-family: "JetBrains Mono","Cascadia Mono",Consolas,"Courier New",monospace; font-size: 17px; white-space: pre; }
+    .win { fill: #1A1A1A; stroke: #3A3A3A; }
+    .bar { fill: #262626; }
+    .p { fill: #22E9F2; }
+    .o { fill: #FFFFFF; }
+    .d { fill: #9AA0A0; }
+    .h { fill: #9AA0A0; font-weight: 700; }
+    .run { fill: #28C840; }
+    
+    .cur { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: 0.35; } }
+  </style>
+  <defs>
+    <clipPath id="a"><rect x="40" y="66" width="0" height="30"><animate attributeName="width" from="0" to="820" begin="0.4s" dur="1.4s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <rect class="win" x="1" y="1" width="898" height="298" rx="14" stroke-width="2"/>
+  <path class="bar" d="M2 15a13 13 0 0 1 13-13h870a13 13 0 0 1 13 13v33H2z"/>
+  <circle cx="28" cy="25" r="6" fill="#FF5F57"/><circle cx="50" cy="25" r="6" fill="#FEBC2E"/><circle cx="72" cy="25" r="6" fill="#28C840"/>
+  <text class="d" x="450" y="31" font-size="14" text-anchor="middle">produccion — un lunes a las 9:00 (ejemplo)</text>
+
+  <g clip-path="url(#a)"><text x="40" y="88"><tspan class="p">$</tspan> <tspan class="o">kubectl get pods -n produccion</tspan></text></g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2s" dur="0.3s" fill="freeze"/>
+    <text class="h" x="40" y="128">NAME                  READY   STATUS    RESTARTS   AGE</text>
+    <text class="o" x="40" y="158">tu-api-7d9c4b-x2lq    1/1     <tspan class="run pulse">Running</tspan>   0          41d</text>
+    <text class="o" x="40" y="184">tu-web-5f8b6c-q9mz    1/1     <tspan class="run pulse">Running</tspan>   0          41d</text>
+    <text class="o" x="40" y="210">tu-worker-6c7d-k4tn   1/1     <tspan class="run pulse">Running</tspan>   0          12d</text>
+    <text class="o" x="40" y="236">tu-db-0               1/1     <tspan class="run pulse">Running</tspan>   0          97d</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.2s" dur="0.3s" fill="freeze"/>
+    <text x="40" y="274"><tspan class="p">$</tspan> <tspan class="d"># sin sobresaltos: eso es lo que queremos que veas</tspan><tspan class="cur p">▌</tspan></text>
+  </g>
+</svg>
