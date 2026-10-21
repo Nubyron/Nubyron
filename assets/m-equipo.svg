@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 476" role="img" aria-label="Equipo: David González, CEO, y Leafar Maina, CTO, con más de 20 años en producción."><style>text{font-family:'Poppins','Segoe UI',Helvetica,Arial,sans-serif;}.c{fill:#10121A;} .de{fill:#CBD0D6;font-size:13.5px;}</style><defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22E9F2"/><stop offset="1" stop-color="#4E29D6"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22E9F2"/><stop offset="1" stop-color="#4E29D6"/></linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="bd" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="480" y2="0" spreadMethod="reflect"><stop offset="0" stop-color="#22E9F2"/><stop offset="0.5" stop-color="#4E29D6"/><stop offset="1" stop-color="#22E9F2"/><animateTransform attributeName="gradientTransform" type="translate" from="-480 0" to="480 0" dur="7s" repeatCount="indefinite"/></linearGradient>
+</defs><g><rect class="c" x="1" y="1" width="478" height="228" rx="20"/>
+<rect x="1" y="1" width="478" height="228" rx="20" fill="none" stroke="url(#bd)" stroke-width="3"/>
+<circle cx="76" cy="100" r="52" fill="#22E9F2" opacity="0.12"><animate attributeName="r" values="46;60;46" dur="3.6s" repeatCount="indefinite"/></circle>
+<circle cx="76" cy="100" r="46" fill="none" stroke="url(#g2)" stroke-width="3" stroke-dasharray="12 8" filter="url(#glow)"><animateTransform attributeName="transform" type="rotate" from="0 76 100" to="360 76 100" dur="20s" repeatCount="indefinite"/></circle>
+<circle r="4" fill="#22E9F2" filter="url(#glow)"><animateMotion dur="8s" repeatCount="indefinite" path="M 30 100 a 46 46 0 1 1 92 0 a 46 46 0 1 1 -92 0"/></circle>
+<circle cx="76" cy="100" r="34" fill="url(#g2)"/>
+<text x="76" y="110" text-anchor="middle" font-size="29" font-weight="800" fill="#07080C">DG</text>
+<g transform="translate(150 28)"><rect x="0.5" y="0.5" width="58" height="24" rx="12" fill="rgba(34,233,242,0.10)" stroke="#22E9F2" stroke-width="1.2"/><text x="29" y="17" text-anchor="middle" fill="#22E9F2" font-family="'JetBrains Mono','Cascadia Mono',Consolas,'Courier New',monospace" font-size="12" font-weight="700" letter-spacing="3">CEO</text></g>
+<text x="150" y="82" font-size="24" font-weight="800" fill="#fff">David González</text>
+<text class="de" x="150" y="108">Arquitectura cloud y gestión</text>
+<text class="de" x="150" y="128">de sistemas. Gobierno de TI y ENS.</text>
+<g transform="translate(150 160)"><rect x="0.5" y="0.5" width="58" height="26" rx="13" fill="rgba(255,255,255,0.05)" stroke="#343B52"/><circle cx="12" cy="13.5" r="3" fill="#22E9F2"/><text x="21" y="18" font-size="11" font-weight="600" fill="#E8EBEF">Cloud</text></g>
+<g transform="translate(217 160)"><rect x="0.5" y="0.5" width="77" height="26" rx="13" fill="rgba(255,255,255,0.05)" stroke="#343B52"/><circle cx="12" cy="13.5" r="3" fill="#8B6CFF"/><text x="21" y="18" font-size="11" font-weight="600" fill="#E8EBEF">Sistemas</text></g>
+<g transform="translate(303 160)"><rect x="0.5" y="0.5" width="44" height="26" rx="13" fill="rgba(255,255,255,0.05)" stroke="#343B52"/><circle cx="12" cy="13.5" r="3" fill="#22E9F2"/><text x="21" y="18" font-size="11" font-weight="600" fill="#E8EBEF">ENS</text></g>
+<text x="24" y="212" font-family="'JetBrains Mono','Cascadia Mono',Consolas,'Courier New',monospace" font-size="12" fill="#9AA3AE"><tspan fill="#22E9F2">$</tspan> fundador · Las Palmas de GC</text></g><g><rect class="c" x="1" y="245" width="478" height="228" rx="20"/>
+<rect x="1" y="245" width="478" height="228" rx="20" fill="none" stroke="url(#bd)" stroke-width="3"/>
+<circle cx="76" cy="344" r="52" fill="#22E9F2" opacity="0.12"><animate attributeName="r" values="46;60;46" dur="3.6s" repeatCount="indefinite"/></circle>
+<circle cx="76" cy="344" r="46" fill="none" stroke="url(#g2)" stroke-width="3" stroke-dasharray="12 8" filter="url(#glow)"><animateTransform attributeName="transform" type="rotate" from="360 76 344" to="0 76 344" dur="20s" repeatCount="indefinite"/></circle>
+<circle r="4" fill="#22E9F2" filter="url(#glow)"><animateMotion dur="8s" repeatCount="indefinite" path="M 30 344 a 46 46 0 1 1 92 0 a 46 46 0 1 1 -92 0"/></circle>
+<circle cx="76" cy="344" r="34" fill="url(#g2)"/>
+<text x="76" y="354" text-anchor="middle" font-size="29" font-weight="800" fill="#07080C">LM</text>
+<g transform="translate(150 272)"><rect x="0.5" y="0.5" width="58" height="24" rx="12" fill="rgba(34,233,242,0.10)" stroke="#22E9F2" stroke-width="1.2"/><text x="29" y="17" text-anchor="middle" fill="#22E9F2" font-family="'JetBrains Mono','Cascadia Mono',Consolas,'Courier New',monospace" font-size="12" font-weight="700" letter-spacing="3">CTO</text></g>
+<text x="150" y="326" font-size="24" font-weight="800" fill="#fff">Leafar Maina</text>
+<text class="de" x="150" y="352">Más de 20 años en producción con</text>
+<text class="de" x="150" y="372">Kubernetes, nubes e infraestructura</text>
+<text class="de" x="150" y="392">crítica.</text>
+<g transform="translate(150 404)"><rect x="0.5" y="0.5" width="91" height="26" rx="13" fill="rgba(255,255,255,0.05)" stroke="#343B52"/><circle cx="12" cy="13.5" r="3" fill="#22E9F2"/><text x="21" y="18" font-size="11" font-weight="600" fill="#E8EBEF">Kubernetes</text></g>
+<g transform="translate(250 404)"><rect x="0.5" y="0.5" width="58" height="26" rx="13" fill="rgba(255,255,255,0.05)" stroke="#343B52"/><circle cx="12" cy="13.5" r="3" fill="#8B6CFF"/><text x="21" y="18" font-size="11" font-weight="600" fill="#E8EBEF">Nubes</text></g>
+<g transform="translate(317 404)"><rect x="0.5" y="0.5" width="91" height="26" rx="13" fill="rgba(255,255,255,0.05)" stroke="#343B52"/><circle cx="12" cy="13.5" r="3" fill="#22E9F2"/><text x="21" y="18" font-size="11" font-weight="600" fill="#E8EBEF">Producción</text></g>
+<text x="24" y="456" font-family="'JetBrains Mono','Cascadia Mono',Consolas,'Courier New',monospace" font-size="12" fill="#9AA3AE"><tspan fill="#22E9F2">$</tspan> dirección técnica · Nubyron</text></g></svg>
